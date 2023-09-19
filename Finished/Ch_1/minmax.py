@@ -25,7 +25,7 @@ def getmag(dataitem):
 
 
 # open the data file and load the JSON
-with open("../../30DayQuakes.json", "r") as datafile:
+with open("/workspaces/advanced-python-working-with -data-4312001/30DayQuakes.json", "r") as datafile:
     data = json.load(datafile)
 
 print(data["metadata"]["title"])
